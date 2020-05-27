@@ -9,7 +9,6 @@ body {
     color: black;
     font-size: 16px;
     font-family: 'Raleway', sans-serif;
-    text-transform: uppercase;
     letter-spacing: 2px;
 }
 
@@ -27,7 +26,53 @@ ul {
     margin: auto;
 }
 
-/*navigation*/
+/*navigation top*/
+.nav-top {
+    font-size: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 20px 0;
+}
+/*nav top menu*/
+.nav-top ul {
+    display: flex;
+}
+.nav-top ul li{
+    padding: 10px;
+}
+
+.nav-top ul li a:hover {
+    border-bottom: 1px solid black;
+}
+
+.nav-top-line {
+    position: relative;
+    margin: 1em;
+    overflow: hidden;
+    line-height: 1px;
+}
+.nav-top-line ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: -1px;
+    
+}
+.nav-top-line li {
+        flex-grow: 1;
+        flex-basis: auto;
+        margin: .25em 0;
+        padding: 0 1em;
+        text-align: center;
+        border-left: 1px solid #ccc;
+        background-color: #fff;
+        
+}
+
+/*navigation main*/
 .nav-main {
     font-size: 10px;
     display: flex;
@@ -35,6 +80,7 @@ ul {
     align-items: center;
     height: 60px;
     padding: 20px 0;
+    text-transform: uppercase;
 }
 
 /*nav principal menu*/
