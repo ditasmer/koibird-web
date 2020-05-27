@@ -8,8 +8,8 @@ body {
     background: white;
     color: black;
     font-size: 16px;
-    font-family: 'Raleway', sans-serif;
-    letter-spacing: 2px;
+    font-family: 'Work Sans', sans-serif;
+    
 }
 
 a {
@@ -71,6 +71,9 @@ ul {
         background-color: #fff;
         
 }
+.nav-brand {
+    width: 200px;
+}
 
 /*navigation main*/
 .nav-main {
@@ -93,4 +96,10 @@ ul {
 
 .nav-main ul li a:hover {
     border-bottom: 1px solid black;
+}
+/*show products*/
+.showproducts {
+    width: 100%;
+    height: 550px;
+
 }
