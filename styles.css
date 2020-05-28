@@ -121,3 +121,15 @@ ul {
 .image1 {
     width: 400px;
 }
+.strapline {
+    background: #E0FF04;
+    height: 60px;
+    line-height: 60px;
+}
+.strapline h3 {
+    font-family: 'Work Sans', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 12px;
+    text-align: center;
+}
