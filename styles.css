@@ -141,6 +141,7 @@ ul {
     background: white;
     height: 50px;
     padding-top: 60px;
+    padding-bottom: 30px;
     display: flex;
     align-items: center;
     text-align: center;
@@ -158,4 +159,18 @@ ul {
 }
 .newinslider-separator::after {
     margin-left: 1em;
+}
+.slider {
+    width: 100%;
+    height: 100%;
+    background-color: hotpink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slider-box {
+    width: 276px;
+    height: 610px;
+    background-color: grey;
+    
 }
