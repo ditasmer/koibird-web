@@ -69,6 +69,7 @@ ul {
         text-align: center;
         border-left: 1px solid #ccc;
         background-color: #fff;
+        letter-spacing: .05em;
         
 }
 .nav-brand {
@@ -92,6 +93,7 @@ ul {
 }
 .nav-main ul li{
     padding: 10px;
+    letter-spacing: .07em;
 }
 
 .nav-main ul li a:hover {
@@ -107,11 +109,12 @@ ul {
     flex-direction:  column;
     align-items: right;
     justify-content: right;
+    letter-spacing: .07em;
 
 }
 .trianglebutton {
     display: inline;
-    width: 130px;
+    width: 150px;
     padding:10px;
     color: white;
     font-size: 10px;
@@ -132,4 +135,27 @@ ul {
     font-weight: bold;
     font-size: 12px;
     text-align: center;
+    letter-spacing: .200em;
+}
+.newinslider-separator {
+    background: white;
+    height: 100px;
+    padding-top: 60px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: .200em;
+    font-size: 12px;
+    
+}
+.newinslider-separator::before, .newinslider-separator::after {
+    content: '';
+    flex: 1;
+    border-bottom: 3px solid #E0FF04;
+}
+.newinslider-separator::before {
+    margin-right: 1em;
+}
+.newinslider-separator::after {
+    margin-left: 1em;
 }
