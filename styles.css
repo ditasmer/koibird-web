@@ -29,9 +29,8 @@ body {
         /* border: 1px solid rgba(187, 187, 187, 0.40); */
         }
         .img-box img{
-            height: auto;
-            max-width: 60%;
-            max-height: 60%;
+            max-width: 70%;
+            max-height: 300px;
             margin-bottom: 10px;
         }
         .slider-box:hover{
@@ -202,7 +201,7 @@ ul {
     background: white;
     height: 50px;
     padding-top: 60px;
-    padding-bottom: 30px;
+    padding-bottom: 0px;
     display: flex;
     align-items: center;
     text-align: center;
