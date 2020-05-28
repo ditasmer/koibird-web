@@ -9,6 +9,9 @@ body {
     color: black;
     font-size: 16px;
     font-family: 'Work Sans', sans-serif;}
+    .swiper-slide {
+        width: 250px !important;
+    }
     .slider-box {
         height: 350px;
         width: 250px;
