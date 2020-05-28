@@ -165,6 +165,7 @@ ul {
     height: 550px;
     background: url('./img/bgpicture.png') no-repeat left center/cover;
     padding-bottom: 50px;
+    margin-bottom: 5px;
     display: flex;
     flex-direction:  column;
     align-items: right;
@@ -267,3 +268,35 @@ ul {
     border-bottom: 1px solid #E0FF04;
     
 }
+
+.cards-area{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 7px;
+    margin: 10px, 0;
+    text-align: center;  
+    position: relative; 
+    justify-content: center;
+    align-items: center; 
+    }
+    .text-block {
+        position: absolute;
+        bottom: 20px;
+        color: white;
+        padding-left: 20px;
+        padding-right: 20px;
+        text-transform: uppercase;
+        font-size: 20px;
+        letter-spacing: 0.15em;
+        text-align: center;
+      }
+    .cards-area img{
+        width: 100%;
+        height: 100%;
+    }
+    .cards-area a{
+        color: white;
+        text-transform: uppercase;
+        font-size: 10px;
+        letter-spacing: 0.07em;
+    }
