@@ -353,4 +353,35 @@ ul {
     background-color: #E0FF04;
     color: white;
     text-align: center;
+    font-family: 'Work Sans', sans-serif;
   }
+  /*navigation footer*/
+.nav-footer {
+    font-size: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 20px 0;
+    text-transform: uppercase;
+    margin-left: 80px;
+  
+}
+
+.nav-footer ul {
+    display: flex;
+}
+.nav-footer ul li{
+    padding: 10px;
+    letter-spacing: .05em;
+}
+
+.nav-footer ul li a:hover {
+    border-bottom: 1px solid black;
+}
+.img-footer{
+    display: flex;
+    margin-left: 90px;
+    margin-top: 30px;
+
+}
