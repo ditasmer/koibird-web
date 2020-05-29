@@ -345,3 +345,12 @@ ul {
     height: 100%;
 
 }
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #E0FF04;
+    color: white;
+    text-align: center;
+  }
