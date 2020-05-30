@@ -384,7 +384,9 @@ header {
 
 .cards-area {
   display: inline-grid;
-  grid-template-columns: repeat(3, 1fr);
+  ms-grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat(3, 1fr);;
+  ms-grid-template-rows: 1fr 1fr;
   grid-template-rows: repeat(2, 1fr);
   grid-gap: 7px;
   margin-left: 10%;
